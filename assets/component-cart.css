@@ -192,6 +192,14 @@ cart-items {
   max-width: 36rem;
 }
 
+button[name="checkout"].is-disabled,
+.cart__checkout-button.is-disabled,
+#checkout.is-disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
 .cart__ctas {
   text-align: center;
 }
