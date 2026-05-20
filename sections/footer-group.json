@@ -1,0 +1,83 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:sections.footer.name",
+  "type": "footer",
+  "sections": {
+    "custom_liquid_KzXXQt": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.presets.name",
+      "settings": {
+        "custom_liquid": "<div class=\"footer__content-top page-width\">\n<div class=\"footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet scroll-trigger animate--slide-in\">\n  <!-- Column 1: Contact -->\n  <div class=\"footer-block grid__item page-width scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 1;\">\n    <h2 class=\"footer-block__heading inline-richtext\">Contact</h2>\n    <p style=\"margin-bottom: 12px; line-height: 1.6;\">Ioanninon 2,<br>42200 Kalampaka<br>6980466652</p>\n    <h4 style=\"font-size: 14px; font-weight: 600; margin-top: 20px; margin-bottom: 8px;\">Email</h4>\n    <p style=\"color: inherit; text-decoration: none; border-bottom: 1px solid currentColor;\">info(at)meteorabrewing.gr</p>\n  </div>\n  \n  <!-- Column 2: Open -->\n  <div class=\"footer-block grid__item page-width scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 2;\">\n    <h2 class=\"footer-block__heading inline-richtext\">Open</h2>\n    <div style=\"line-height: 1.8;\">\n<div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Every day:</span> <span>12-14</span></div>\n<!--\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Monday:</span> <span>12-14</span></div>\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Tuesday:</span> <span>12-14</span></div>\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Wednesday:</span>  <span>12-14</span></div>\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Thursday:</span> <span>12-14</span></div>\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Friday:</span> <span>12-14</span></div>\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 8px;\"><span>Saturday:</span> <span>12-14</span></div>\n      <div style=\"display: flex; justify-content: space-between; margin-bottom: 20px;\"><span>Sunday:</span> <span>12-14</span></div>-->\n    </div>\n    <p style=\"font-size: 13px; line-height: 1.6; color: #666;\"></p>\n  </div>\n  \n  <!-- Column 3: LINKS -->\n  <div class=\"footer-block grid__item page-width footer-block--menu scroll-trigger animate--slide-in\" data-cascade=\"\" style=\"--animation-order: 3;\">\n    <h2 class=\"footer-block__heading inline-richtext\">LINKS</h2>\n    <ul style=\"list-style: none; padding: 0; margin: 0; line-height: 1.8;\">\n<!-- \n      <li><a href=\"#\" style=\"color: inherit; text-decoration: none; border-bottom: 1px solid currentColor;\">EVENTS</a></li> -->\n      <li><a href=\"/pages/our-story\" style=\"color: inherit; text-decoration: none; border-bottom: 1px solid currentColor;\">ABOUT METEORA BREWING</a></li>\n      <li><a href=\"#\" style=\"color: inherit; text-decoration: none; border-bottom: 1px solid currentColor;\">COOKIES</a></li>\n <!--     <li><a href=\"#\" style=\"color: inherit; text-decoration: none; border-bottom: 1px solid currentColor;\">JOBS</a></li>\n      <li><a href=\"#\" style=\"color: inherit; text-decoration: none; border-bottom: 1px solid currentColor;\">RESERVATIONS</a></li>-->\n    </ul>\n  </div>\n</div>\n</div>",
+        "color_scheme": "scheme-4",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "settings": {
+        "color_scheme": "scheme-4",
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "enable_follow_on_shop": false,
+        "show_social": true,
+        "enable_country_selector": true,
+        "enable_language_selector": true,
+        "payment_enable": false,
+        "show_policy": true,
+        "margin_top": 0,
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "newsletter_qB6qUM": {
+      "type": "newsletter",
+      "blocks": {
+        "heading_AHPLbk": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "paragraph_rBQELA": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>"
+          }
+        },
+        "email_form_r9jNke": {
+          "type": "email_form",
+          "disabled": true,
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_AHPLbk",
+        "paragraph_rBQELA",
+        "email_form_r9jNke"
+      ],
+      "disabled": true,
+      "name": "t:sections.newsletter.presets.name",
+      "settings": {
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_KzXXQt",
+    "footer",
+    "newsletter_qB6qUM"
+  ]
+}
